@@ -7,7 +7,7 @@ from allennlp.predictors.predictor import Predictor
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ref_caption_file', default='D:\\dataset\\MSRVTT\\msrvtt10ktrain\\TextData\\msrvtt10ktrain.caption.txt')
+    parser.add_argument('--ref_caption_file', default='~/PycharmProjects/hgr_v2t/data/msrvtt/train/msrvtt10ktrain.caption.txt')
     parser.add_argument('--out_file', default='figures/graph_caption.txt')
     parser.add_argument('--cuda_device', default=-1, type=int)
     opts = parser.parse_args()
